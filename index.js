@@ -161,14 +161,6 @@ $("#close").click(function(){
     'display':'none'
   })
 })
-/*
-$("#img_one").click(function(){
-  $('img.image2').css({
-    'display':'inline-block'
-  })
-  $('img.active').css({
-    'display':'none'
-  })*/
 
   $("#img_one").click(function(){
     // Change src attribute of image
@@ -190,11 +182,7 @@ $("#img_one").click(function(){
     // Change src attribute of image
     $('.active').attr("src", "./images/image-product-4.jpg");
   }); 
-   $('.basket').click(function(){
-    $('#checkout').css({
-      'display':'inline-table'
-    })
-  })
+  
  
 })
 

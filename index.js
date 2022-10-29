@@ -190,5 +190,11 @@ $("#img_one").click(function(){
     // Change src attribute of image
     $('.active').attr("src", "./images/image-product-4.jpg");
   }); 
+   $('.basket').click(function(){
+    $('#checkout').css({
+      'display':'inline-table'
+    })
+  })
+ 
 })
 
